@@ -64,13 +64,17 @@
 .imagen {
     width: 8em;
     height: 8em;
-    margin-top: 20px;
-    float: left;
-    display: block;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
     
 }
 
-.imagen ~ p {
+.division {
+    width: 75%;
+    display: inline-block;
+}
+
+.division p {
     margin: 0.7em 1em;
     font-family: cursive;
 }
