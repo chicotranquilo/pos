@@ -24,6 +24,7 @@
 
 .principal {
     position: absolute;
+    left: 2em;
     top: 4.5em;
     display: inline-block;
     width: 70%;
@@ -38,14 +39,18 @@
     font-size: 2rem;
 }
 
+.contenido {
+    width: 90%;
+    background-color: steelblue;
+}
+
 .articulo {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2em;
-    border: 1px solid rgb(54, 126, 235);
-    border-radius: 50px; 
-    background-color: steelblue;
+    /* border-radius: 50px;  */
+    background-color: white;
        
 }
 
@@ -57,11 +62,10 @@
 
 
 .imagen {
-    width: 350px;
-    height: 400px;
+    width: 8em;
+    height: 8em;
     margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
+    float: left;
     display: block;
     
 }
