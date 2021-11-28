@@ -1,0 +1,133 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cuerpo {
+    margin: 0;
+    background-color: lightskyblue;
+    position: relative;
+}
+
+.encabezado {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    background-color: royalblue;
+
+}
+
+.encabezado h1 {
+    text-align: center;
+}
+
+.principal {
+    position: absolute;
+    top: 4.5em;
+    display: inline-block;
+    width: 70%;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.principal h2 {
+    margin-bottom: .5em;
+    margin-left: 0.5em;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.articulo {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    border: 1px solid rgb(54, 126, 235);
+    border-radius: 50px; 
+    background-color: steelblue;
+       
+}
+
+.title_2 {
+    margin-top: 0.7em;
+    margin-left: 2em;
+    text-decoration: underline;
+}
+
+
+.imagen {
+    width: 350px;
+    height: 400px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    
+}
+
+.imagen ~ p {
+    margin: 0.7em 1em;
+    font-family: cursive;
+}
+
+
+.lateral {
+    position: absolute;
+    right: 0.7em;
+    top: 10em;
+    display: inline-block;
+    width: 29%;
+    background-color: rgba(31, 30, 30, 0.849);
+}
+
+.lateral h2 {
+    text-align: center;
+    margin-top: 00.7em;
+}
+
+.seccion {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid royalblue;
+}
+
+.img-section {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+}
+
+.seccion p {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    color: royalblue;
+}
+
+.link:hover {
+    color: skyblue;
+}
+
+.pie {
+    width: 100%;
+    position: absolute;
+    bottom: -2.1em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    background-color: black;
+}
+
+.p-pie {
+    color: blueviolet;
+    text-align: center;
+}
+
