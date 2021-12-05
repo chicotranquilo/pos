@@ -1,7 +1,8 @@
 :root {
-    --color-cuerpo: #3EB6F8;
-    --color-seccion: #36D98D;
-    --color-encabezado: rgb(77, 121, 255);
+    --color-cuerpo: #489aed;
+    --color-seccion: #1e7ee1;
+    --color-encabezado: #1e7ee1;
+    --fuente-encabezado: hsl(49, 81%, 54%);
 }
 
 
@@ -23,14 +24,12 @@
     width: 100%;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
-    /* background-color: var(--color-encabezado); */
-    background-color: #c00;
-
+    background-color: var(--color-encabezado);
 }
 
 .encabezado h1 {
     text-align: center;
-    color: hsl(35, 90%, 50%);
+    color: var(--fuente-encabezado);
 }
 
 .principal {
@@ -51,7 +50,7 @@
 
 .contenido {
     width: 90%;
-    background-color: steelblue;
+    /* background-color: steelblue; */
 }
 
 .articulo {
@@ -59,7 +58,9 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2em;
-    /* border-radius: 50px;  */
+    border: 2px solid black ; 
+    outline: 2px solid hsl(49, 83%, 72%);
+    outline-offset: -3px;
     /* background-color: white; */
        
 }
@@ -145,7 +146,7 @@
 }
 
 .p-pie {
-    color: hsl(35, 90%, 50%);
+    color: var(--fuente-encabezado);
     text-align: center;
 }
 
