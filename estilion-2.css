@@ -1,10 +1,19 @@
+:root {
+    --color-cuerpo: #3EB6F8;
+    --color-seccion: #36D98D;
+    --color-encabezado: rgb(77, 121, 255);
+}
+
+
+
+
 * {
     font-family: 'Roboto', sans-serif;
 }
 
 .cuerpo {
     margin: 0;
-    background-color: lightskyblue;
+    background-color: var(--color-cuerpo);
     position: relative;
 }
 
@@ -14,20 +23,23 @@
     width: 100%;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
-    background-color: royalblue;
+    /* background-color: var(--color-encabezado); */
+    background-color: #c00;
 
 }
 
 .encabezado h1 {
     text-align: center;
+    color: hsl(35, 90%, 50%);
 }
 
 .principal {
     position: absolute;
-    left: 2em;
-    top: 4.5em;
+    left: 1.2em;
+    top: 6em;
     display: inline-block;
     width: 70%;
+    background-color: var(--color-seccion);
 }
 
 .principal h2 {
@@ -43,12 +55,12 @@
 }
 
 .articulo {
-    width: 90%;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2em;
     /* border-radius: 50px;  */
-    background-color: white;
+    /* background-color: white; */
        
 }
 
@@ -80,11 +92,11 @@
 
 .lateral {
     position: absolute;
-    right: 0.7em;
+    right: 0.5em;
     top: 10em;
     display: inline-block;
     width: 29%;
-    background-color: rgba(31, 30, 30, 0.849);
+    background-color: var(--color-seccion);
 }
 
 .lateral h2 {
@@ -126,14 +138,14 @@
 .pie {
     width: 100%;
     position: absolute;
-    bottom: -2.1em;
+    bottom: -85em;
     padding-top: 0.7em;
     padding-bottom: 0.7em;
-    background-color: black;
+    background-color: var(--color-encabezado);
 }
 
 .p-pie {
-    color: blueviolet;
+    color: hsl(35, 90%, 50%);
     text-align: center;
 }
 
