@@ -7,6 +7,7 @@
     margin: 0;
     background-color: lightskyblue;
     position: relative;
+    overflow: auto;
 }
 
 
@@ -122,10 +123,11 @@
 .pie {
     width: 100%;
     position: absolute;
-    bottom: -20em;
+    bottom: 0;
     padding-top: 0.7em;
     padding-bottom: 0.7em;
     background-color: black;
+    z-index: 3;
 }
 
 .p-pie {
